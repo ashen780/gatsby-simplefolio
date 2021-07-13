@@ -24,7 +24,7 @@ export const aboutData = {
     "While I'm working I got and opportunity to work on its projects, E-commerce project and a few other web based projects.",
   paragraphThree:
     'During my job experience, I had practical skills with interesting technologies and tasks. On the whole role of my engineering practice include building and supporting web and mobile solutions based on cloud platforms (AWS, GCP), experience in software development, testing and securing Server setup and application.',
-  resume: 'https://drive.google.com/file/d/1xacbE5IrVUR4uVpS9s_Wlsp5LBBPdjFv/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1wCqk8FJdxiZQpmjaIsZihfVJtrEasD5l/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA PERSONAL
