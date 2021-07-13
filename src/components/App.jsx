@@ -7,25 +7,29 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, projectsDataPersonal, projectsDataWork, contactData, footerData } from '../mock/data';
+import Construction from './Construction/Construction';
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
-  const [projects, setProjects] = useState([]);
+  const [projectsPersonal, setProjectsPersonal] = useState([]);
+  const [projectsWork, setProjectsWork] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
-    setProjects([...projectsData]);
+    setProjectsPersonal([...projectsDataPersonal]);
+    setProjectsWork([...projectsDataWork]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, projectsPersonal, projectsWork, contact, footer }}>
+      <Construction />
       <Hero />
       <About />
       <Projects />
