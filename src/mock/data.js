@@ -57,6 +57,16 @@ export const projectsDataPersonal = [
     url: 'https://drive.google.com/file/d/1mFlCWT41mHytxPEitHZGKf6-_JwRpqjo/view?usp=sharing',
     repo: 'https://github.com/ashen780/weather-app/', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'chat1.png',
+    title: 'chat web application | socket.io',
+    info: 'This is a basic chat web application where anyone can connect to the chat using the chat room name.',
+    info2:
+      "I've to use socket.io to build this app, the frontend is react hosted in firebase. Backend is node js hosted in Heroku",
+    url: 'https://chat.ashen780.tk/',
+    repo: 'https://github.com/ashen780/chat_application', // if no repo, the button will not show up
+  },
 ];
 
 // PROJECTS DATA WORK
@@ -86,7 +96,7 @@ export const projectsDataWork = [
     info: 'This is an attendance system based on face recognition. Allowed users can register with their photos with the given portal. Android app to attendance capture in front of the office gate. This project is still research and development stage. Our main goal is to reduce hardware costs using android phones.',
     info2:
       "Technologies used for this  AWS Amplify, AWS Rekognition, DynamoDB, AWS Cognito, AWS s3, AWS lambda, react and node-js. I've designed the develop the user registration react front end and was lambada functions.",
-    //url: '',
+    // url: '',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     images: ['face1.png', 'face2.png'],
   },
@@ -97,7 +107,7 @@ export const projectsDataWork = [
     info: "DIMO has 9 clusters, in this project, I've built a vanilla js web to capture each cluster finance summary and put them together for the whole group's summary view.",
     info2:
       "Technologies used for this are all Google Firebase technologies, database => firestore, user login via google auth limited to organisation emails and 'superAdmin' allowed users. as well as GCP cloud functions.",
-    //url: '',
+    // url: '',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     images: ['dfs1.png', 'dfs2.png', 'dfs4.png', 'dfs5.png'],
   },
@@ -108,7 +118,7 @@ export const projectsDataWork = [
     info: 'Build a system to monitor the power consumption of ACs using IoT technologies and collect and analyse data to identify methods of optimizing the power consumption to reduce the cost of the monthly electric bill. Also facilitating two way communication to control power to the devices.',
     info2:
       "For this project, we've used various IoT technologies such as MQTT, NODE-RED, Thingsboard, Tasmota firmware, MongoDB",
-    //url: '',
+    // url: '',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
     images: ['iot1.png'],
   },
